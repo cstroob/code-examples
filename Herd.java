@@ -329,3 +329,17 @@ public class Herd {
 	public ElephantSeal youngestElephantSeal() {
 
 		ElephantSeal rv = herd.get(0);
+
+		for(int i = 1; i < herd.size(); ++i) {
+
+			if(herd.get(i).getAge() < rv.getAge()) {
+
+				rv = herd.get(i);
+
+			} // Ending bracket of if
+
+		} // Ending bracket of for loop
+
+		return rv;
+
+	} // Ending bracket of method youngestElephantSeal
