@@ -110,25 +110,14 @@ this.isObstructingPlayer = status;
 
 @Override
 public void tick() {
-// TODO Auto-generated method stub
-
 }
 
 @Override
 public void render(Graphics g) {
-// TODO Auto-generated method stub
-
 }
 
 @Override
 public Rectangle getBounds() {
-// TODO Auto-generated method stub
-return null;
-}
-
-@Override
-public Rectangle getHarvestBounds() {
-// TODO Auto-generated method stub
 return null;
 }
 
